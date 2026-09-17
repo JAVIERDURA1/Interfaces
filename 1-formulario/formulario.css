@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(179, 156, 156);
+}
+label{
+    color: rgb(24, 240, 240);
+}
+.button{
+    color: rgb(240, 0, 0);
+    background-color: #1739c4;
+}
