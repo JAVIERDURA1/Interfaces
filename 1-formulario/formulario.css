@@ -1,10 +1,17 @@
 body{
-    background-color: rgb(179, 156, 156);
+    background-color: rgb(240, 200, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+
 }
 label{
-    color: rgb(24, 240, 240);
+    color: rgb(242, 6, 6);
 }
 .button{
     color: rgb(240, 0, 0);
     background-color: #1739c4;
+    padding: 10px 20px;
+    margin-left: 100px;
 }

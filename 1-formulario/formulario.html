@@ -7,18 +7,21 @@
     <title>Formulario</title>
 </head>
 <body>
+    
     <Form>
+        <fieldset>
+            <legend>Formulario</legend>
         <label for="Name">Nombre:</label>
         <input type="text" placeholder="Nombre" id="Name">
         <label for="Apellidos">Apellidos:</label>
         <input type="text" placeholder="Apellidos" id="Apellidos">
         <hr>
-        Sexo:
+        <label for="sexo">Sexo:</label>
         <input type="radio" name="sexo" value="Hombre"> Hombre
         <input type="radio" name="sexo" value="Mujer"> Mujer
         <hr>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" placeholder="Email">
         <label for="Nick">Nick:</label>
         <input type="text" placeholder="Nick" id="Nick">
         <hr>
@@ -27,7 +30,7 @@
         <hr>
         <button type="submit" class="button">Enviar</button>
         <button type="Reset" class="button">Reset</button>
-
+        </fieldset>
     </Form>
 </body>
 </html>
